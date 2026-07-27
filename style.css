@@ -248,3 +248,23 @@ footer {
     color:#023e8a;
     margin-bottom:10px;
 }
+footer{
+    background:#012a4a;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+footer h2{
+    margin-bottom:15px;
+}
+
+footer p{
+    margin:8px 0;
+}
+
+footer hr{
+    margin:20px auto;
+    width:60%;
+    border:1px solid rgba(255,255,255,0.3);
+}
