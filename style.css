@@ -81,3 +81,18 @@ footer {
 .doctor-card p {
     color: #555;
 }
+.appointment{
+    text-align:center;
+    padding:60px 20px;
+    background:#eef7ff;
+}
+
+.appointment input,
+.appointment select{
+    width:300px;
+    padding:12px;
+    margin:8px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
