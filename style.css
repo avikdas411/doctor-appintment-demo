@@ -268,3 +268,27 @@ footer hr{
     width:60%;
     border:1px solid rgba(255,255,255,0.3);
 }
+.stats{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.stat-card{
+    display:inline-block;
+    width:220px;
+    margin:15px;
+    padding:20px;
+    background:rgba(255,255,255,0.15);
+    border-radius:10px;
+}
+
+.stat-card h3{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.stat-card p{
+    font-size:18px;
+}
