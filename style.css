@@ -11,17 +11,40 @@ header {
     padding: 20px;
 }
 
-nav {
-    background: #023e8a;
-    text-align: center;
-    padding: 10px;
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#023e8a;
+    padding:15px 40px;
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 15px;
-    font-weight: bold;
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+    margin:0;
+    padding:0;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#90e0ef;
 }
 
 .hero {
