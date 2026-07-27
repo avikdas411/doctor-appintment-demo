@@ -225,3 +225,26 @@ footer {
     color:white;
     transform:translateY(-8px);
 }
+.faq{
+    padding:60px 20px;
+    background:#ffffff;
+}
+
+.faq h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.faq-item{
+    max-width:800px;
+    margin:20px auto;
+    background:#f4f8fb;
+    padding:20px;
+    border-left:5px solid #0077b6;
+    border-radius:8px;
+}
+
+.faq-item h3{
+    color:#023e8a;
+    margin-bottom:10px;
+}
