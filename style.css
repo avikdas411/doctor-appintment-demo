@@ -113,3 +113,14 @@ footer {
 .search button{
     margin-left:10px;
 }
+.contact{
+    background:#023e8a;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.contact p{
+    font-size:18px;
+    margin:10px 0;
+}
