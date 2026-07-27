@@ -201,3 +201,27 @@ footer {
 .facility-card:hover{
     transform:scale(1.05);
 }
+.why-us{
+    text-align:center;
+    padding:60px 20px;
+    background:#f4f8fb;
+}
+
+.why-card{
+    display:inline-block;
+    width:230px;
+    margin:15px;
+    padding:20px;
+    background:#ffffff;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.why-card:hover{
+    background:#0077b6;
+    color:white;
+    transform:translateY(-8px);
+}
