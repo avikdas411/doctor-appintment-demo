@@ -431,9 +431,12 @@ nav ul{
 
 .appointment input,
 .appointment select,
-.newsletter input,
+.newsletter input, 
 .search input{
     width:90%;
 }
 
+}
+html{
+    scroll-behavior: smooth;
 }
