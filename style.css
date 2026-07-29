@@ -492,3 +492,9 @@ html{
     background:#023e8a;
     transform:translateY(-3px);
 }
+#success-message{
+    color:green;
+    font-weight:bold;
+    margin-top:20px;
+    font-size:18px;
+}
