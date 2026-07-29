@@ -440,3 +440,40 @@ nav ul{
 html{
     scroll-behavior: smooth;
 }
+/* Hamburger Menu */
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Mobile Menu */
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+}
