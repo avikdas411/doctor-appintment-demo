@@ -391,3 +391,49 @@ footer hr{
 .newsletter button:hover{
     background:#0096c7;
 }
+.doctor-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+@media (max-width:768px){
+
+nav{
+    flex-direction:column;
+    padding:15px;
+}
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+    gap:15px;
+    margin-top:15px;
+}
+
+.doctor-card,
+.department-card,
+.service-card,
+.review-card,
+.stat-card{
+    width:90%;
+    margin:15px auto;
+}
+
+.gallery-container{
+    flex-direction:column;
+    align-items:center;
+}
+
+.gallery-container img{
+    width:90%;
+}
+
+.appointment input,
+.appointment select,
+.newsletter input,
+.search input{
+    width:90%;
+}
+
+}
