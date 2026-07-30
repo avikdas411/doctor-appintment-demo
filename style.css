@@ -11,7 +11,7 @@ header {
     padding: 20px;
 }
 
-nav{
+    nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -20,7 +20,9 @@ nav{
     position:sticky;
     top:0;
     z-index:1000;
+    flex-wrap:wrap;
 }
+
 
 .logo{
     color:white;
@@ -398,6 +400,23 @@ footer hr{
     border-radius:10px;
 }
 @media (max-width:768px){
+    .why-card,
+.facility-card{
+    width:90%;
+    margin:15px auto;
+}
+
+button,
+.appointment-btn,
+.emergency-btn{
+    width:90%;
+    max-width:320px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
 
 nav{
     flex-direction:column;
@@ -426,7 +445,9 @@ nav ul{
 }
 
 .gallery-container img{
-    width:90%;
+    width:100%;
+    max-width:300px;
+    height:auto;
 }
 
 .appointment input,
