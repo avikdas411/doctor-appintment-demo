@@ -540,3 +540,63 @@ html{
     background: #f8f9fa;
     transform: scale(1.05);
 }
+/* Smooth Animations */
+
+*{
+    scroll-behavior: smooth;
+}
+
+.doctor-card,
+.department-card,
+.service-card,
+.review-card,
+.stat-card,
+.facility-card,
+.why-card,
+.faq-item,
+.gallery-container img{
+    opacity:0;
+    transform:translateY(40px);
+    animation:fadeUp 0.8s ease forwards;
+}
+
+.doctor-card:nth-child(2){animation-delay:0.2s;}
+.doctor-card:nth-child(3){animation-delay:0.4s;}
+.doctor-card:nth-child(4){animation-delay:0.6s;}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+button,
+.appointment-btn,
+.emergency-btn{
+    transition:all .3s ease;
+}
+
+button:hover,
+.appointment-btn:hover,
+.emergency-btn:hover{
+    transform:scale(1.05);
+}
+
+.gallery-container img:hover{
+    transform:scale(1.08);
+}
+
+.doctor-card:hover,
+.department-card:hover,
+.review-card:hover,
+.service-card:hover,
+.stat-card:hover,
+.facility-card:hover,
+.why-card:hover{
+    transform:translateY(-10px);
+}
