@@ -42,3 +42,14 @@ function searchDoctor() {
         result.textContent = "❌ No doctor found. Please try another search.";
     }
 }
+function subscribeNewsletter() {
+    const email = document.getElementById("newsletterEmail").value;
+    const message = document.getElementById("newsletterMessage");
+
+    if (email === "") {
+        message.textContent = "Please enter your email address.";
+    } else {
+        message.textContent = "✅ Thank you for subscribing!";
+        document.getElementById("newsletterEmail").value = "";
+    }
+}
