@@ -32,7 +32,7 @@
 </nav>
     
 
-    <section id="home" class="hero">
+    <section id="home" class="hero" data-aos="fade-up">
         <h2>Welcome to Our Demo Clinic</h2>
         <p>This website is created for educational and portfolio purposes only.</p>
 
@@ -47,7 +47,7 @@
 
     <p id="searchResult"></p>
 </section>
-<section id="doctors" class="doctors">
+<section id="doctors" class="doctors" data-aos="fade-up">
 
 
 <h2>Our Doctors</h2>
@@ -74,7 +74,7 @@
 </div>
 
 </section>
-    <section id="appointment" class="appointment">
+    <section id="appointment" class="appointment" data-aos="fade-right">
 
 <h2>Book an Appointment</h2>
 <form id="appointment-form">
@@ -253,23 +253,23 @@
 
 </section>
     <section class="newsletter">
-...
+        
 </section>
 
 <section class="services">
-...
+
 </section>
 
 <section class="gallery">
-...
+
 </section>
 
 <section class="stats">
-...
+
 </section>
 
 <footer>
-...
+
 </footer>
         
 
@@ -372,7 +372,19 @@
        
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+        <script src="script.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration: 1000,
+    once: true
+});
+</script>
+
+  
 
 </body>
 </html>
