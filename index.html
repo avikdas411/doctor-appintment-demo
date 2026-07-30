@@ -36,13 +36,14 @@
         <p>This website is created for educational and portfolio purposes only.</p>
 
       <a href="#appointment" class="appointment-btn">Book Appointment</a>
-    </section>
-    <section id="doctors" class="doctors">
+   <section class="search">
     <h2>Find Your Doctor</h2>
 
-    <input type="text" placeholder="Search by Doctor Name or Department">
+    <input type="text" id="doctorSearch" placeholder="Search by Doctor Name or Department">
 
-    <button>Search</button>
+    <button onclick="searchDoctor()">Search</button>
+
+    <p id="searchResult"></p>
 </section>
 <section id="doctors" class="doctors">
 
